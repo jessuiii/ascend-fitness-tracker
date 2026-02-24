@@ -139,6 +139,30 @@ export default function DashboardPage() {
             <main className="page-max-wide animate-slide-up" style={{ paddingTop: '28px', paddingBottom: '40px' }}>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
 
+                    {/* ── WELCOME GREETING ── */}
+                    <div style={{ paddingBottom: '4px' }}>
+                        <p className="label-caps" style={{ color: 'var(--color-text-muted)', marginBottom: '4px', letterSpacing: '0.15em' }}>Dashboard</p>
+                        <h1 style={{
+                            fontFamily: "'Syne', sans-serif",
+                            fontWeight: 800,
+                            fontSize: '2rem',
+                            letterSpacing: '-0.02em',
+                            color: 'var(--color-text-primary)',
+                            lineHeight: 1.1,
+                        }}>
+                            Welcome back,{' '}
+                            <span style={{
+                                background: 'linear-gradient(135deg, var(--color-accent), var(--color-violet))',
+                                WebkitBackgroundClip: 'text',
+                                WebkitTextFillColor: 'transparent',
+                                backgroundClip: 'text',
+                            }}>
+                                {profile.username || 'Athlete'}
+                            </span>
+                            &nbsp;👋
+                        </h1>
+                    </div>
+
                     {/* ── WEEK STRIP ── */}
                     <div style={{ overflowX: 'auto', marginBottom: '8px' }}>
                         <div style={{ display: 'flex', gap: '8px', paddingBottom: '4px', minWidth: 'max-content' }}>
