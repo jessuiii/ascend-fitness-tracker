@@ -35,7 +35,7 @@ export default function Home() {
         <div className="animate-float" style={{ textAlign: 'center' }}>
           <div style={{
             width: '72px', height: '72px', borderRadius: '22px',
-            background: 'rgba(255,107,43,0.12)', border: '1px solid rgba(255,107,43,0.25)',
+            background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.15)',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontSize: '2.2rem', margin: '0 auto 16px',
           }}>
@@ -44,7 +44,7 @@ export default function Home() {
           <h1 style={{
             fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: '2.8rem',
             letterSpacing: '-0.04em',
-            background: 'linear-gradient(135deg, #ff6b2b, #ffaa80)',
+            background: 'linear-gradient(135deg, #ffffff, #a0a0c0)',
             WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text',
           }}>
             Ascend
@@ -60,7 +60,7 @@ export default function Home() {
         }}>
           <div style={{
             height: '100%', borderRadius: '99px',
-            background: 'linear-gradient(90deg, #ff6b2b, #ff8c5a)',
+            background: 'linear-gradient(90deg, #ffffff, #a0a0c0)',
             animation: 'shimmer 1.5s ease-in-out infinite',
             backgroundSize: '200% 100%',
           }} />
