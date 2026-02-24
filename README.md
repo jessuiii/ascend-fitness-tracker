@@ -24,7 +24,7 @@ A modern, full-stack fitness tracking application built with Next.js, Supabase, 
 |---|---|
 | Framework | [Next.js 15](https://nextjs.org) (App Router) |
 | Database & Auth | [Supabase](https://supabase.com) (PostgreSQL + Auth) |
-| AI | [Google Gemini](https://ai.google.dev) |
+| AI | Groq |
 | Styling | Vanilla CSS with CSS custom properties |
 | Language | TypeScript |
 | Deployment | [Vercel](https://vercel.com) |
@@ -65,7 +65,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 NEXT_PUBLIC_SITE_URL=
 
 # Gemini AI
-GEMINI_API_KEY=your_gemini_api_key
+GROQ_API_KEY=your_groq_api_key
 ```
 
 ### 4. Configure Supabase
